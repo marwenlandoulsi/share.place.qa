@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="">
+  <title>Share.Place</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../material-design-iconic-font/css/material-design-iconic-font.css">
+  <link rel="icon" type="image/ico" href="../images/faviconsp.ico">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script defer src="main.dart" type="application/dart"></script>
+  <script defer src="packages/browser/dart.js"></script>
+
+  <script src="jquery.js"></script>
+  <script src="jquery.scrollbar.js"></script>
+  <link rel="stylesheet" href="scrollbar.css" />
+
+  <script type="application/javascript">
+
+
+  </script>
+
+  <script type="application/javascript">
+
+  </script>
+
+
+</head>
+<body>
+<my-app>
+
+  <img style="
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ " src="../images/logo128.gif">
+</my-app>
+
+<script type="text/javascript">
+
+  //jQuery(document).ready();
+</script>
+
+<script src="../socketIo/socket.io.js"></script>
+
+
+<input type="hidden" id="baseUrl" value="err"/>
+<input type="hidden" id="loginUrl" value="err"/>
+<input type="hidden" id="port" value="err"/>
+<input type="hidden" id="env" value="desktop"/>
+<input type="hidden" id="cc" value=""/>
+
+<script type="application/javascript">
+  document.getElementById('baseUrl').value = window.location.origin;
+  //document.getElementById('loginUrl').value = "http://localhost:5000";
+  document.getElementById('loginUrl').value = "https://app.share.place";
+  document.getElementById('port').value = window.location.port;
+</script>
+<script src="../js/zendesk.js"></script>
+</body>
+
+</html>
