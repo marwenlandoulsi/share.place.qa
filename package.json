@@ -57,7 +57,7 @@
   "license": "ISC",
   "copyright": "©2017 Share.Place, Inc.",
   "devDependencies": {
-    "electron": "1.6.7",
+    "electron": "9.1.0",
     "electron-builder": "^15.6.2"
   }
 }
